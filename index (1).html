@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Startup</title>
+    <!-- this is required meta tag thatt makes the website responsive for mobile. copied from backstrap site -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style (1).css">
+  </head>
+  <body>
+    
+    <div class='container d-flex align-items-center h-100'>
+      <div class="row">
+        <header class="text-center">
+          <h1 class="text-uppercase"><!-- the class text uppercase and s oon are specific for bootstrap --><strong>The biggest startup event of the year </strong></h1>
+        </header>
+        <section class="text-center col-12">
+          <div class="buffer col-12">
+          </div>
+        <hr>
+        <button type="button" class="btn btn-primary btn-xl"><!-- here i am adding additional class that i specify in css on top of the regular bootstrap classes. This is to make the button round and the text in it CAPs -->Find out more</button>
+      </section>
+      </div>
+
+    </div>
+    <div class="footer">
+      <img src="mag-logo.png">
+    </div>
+  </body>
+</html>
+<!-- 
+THIS IS HOW BOOTSTRAP DOES LAYOUT
+EITHER USE INLINE- NOT A GOOD WAY OR BY USING THE FLEXBOX SYSTEM (D-FLEX)
+  wrap everything in container -->
+<!--  -->
+<!-- 
+1. horizontal alignment using rows of a bootstrap.
+2. col-12 means that the column will fill the whole width ( row divided into 12 parts)
+3. vertical alignment is difficult. bootstrap has inline, but this is not the recommentded way. Better FLEX which manages the grid columns. 
+4. This is also why we need a container. 
+5. ENABLE FLEX BOX by adding class d-flex
+6. alaign-items-center ( remember: align works on horisontal, justify on vertical axis)
+7. container has to be h-100 for it to work ( so that it fills the whole page)
+
+-->
